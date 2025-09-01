@@ -1,0 +1,195 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px; /* Set a fixed height for the header */
+}
+
+/* Left side container for title and navigation */
+.header-left {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Make sure it takes full header height */
+}
+
+/* Specific styling for the site title */
+.site-title h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: -0.02em;
+    font-weight: bold;
+    margin-top: 37px;
+    margin-left: 80px;
+    /* Adds the specified margin between the title and Home link */
+    margin-right: 97.5px;
+    align-items: center; /* Center vertically within the header */
+    height: 100%; /* Take full height of parent */
+    line-height: 160%;
+}
+
+/* Styling for the dot in the title */
+.site-title span {
+      color: #FC569A;
+      line-height: 160%;
+}
+
+/* Main navigation list */
+nav ul {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* These margins are set directly on the list items for precise control */
+    height: 100%; /* Take full height of parent */
+    align-items: center; /* Center items vertically */
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* Styles for navigation list items */
+nav ul li {
+    margin-top: 0; /* Applies the specified top margin to all nav links */
+    display: flex;
+    align-items: center; /* Center vertically */
+    height: 100%; /* Take full height of parent */
+}
+
+/* Styles for all navigation links */
+.nav-link {
+    text-decoration: none;
+    color: #1B0A42;
+    display: flex;
+    align-items: center; /* Center vertically */
+    height: 100%; /* Take full height of parent */
+}
+
+
+
+/* Individual margins for navigation links */
+
+/* 
+.nav-link[data-page="home"] {
+      Margin is already handled by .site-title h3 margin-right 
+}*/
+
+.nav-link[data-page="about"] {
+    margin-left: 38px;
+}
+.nav-link[data-page="blog"] {
+    margin-left: 40px;
+}
+.nav-link[data-page="content"] {
+    margin-left: 38px;
+}
+
+/* Right side container for buttons */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the Sign In link */
+.nav-link.sign-in {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    height: 100%; /* Take full height of parent */
+}
+
+/* Styling for the Sign Up button */
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #FC569A;
+    color: white;
+    border: none;
+    padding: 18px 31px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 68px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    height: 44px; /* Set a fixed height for the button */
+}
+
+
+main {
+    display: flex; /* This makes the content and image sit side by side */
+    align-items: center; /* Vertically centers the content */
+}
+
+.content-section {
+    flex: 1; /* Takes up 1 part of the available space */
+}
+
+.image-section {
+    flex: 1; /* Also takes up 1 part of the available space */
+}
+
+.main-title {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 209px;
+    margin-left: 200px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.main-info {
+    max-width: 583px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+.main-btn {
+    width: 152px;
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #FC569A;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 778px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 205px;
+    margin-right: 19px;
+    display: flex;
+}
