@@ -22,10 +22,10 @@ header {
     font-weight: bold;
     margin-top: 37px;
     margin-left: 80px;
-    /* Adds the specified margin between the title and Home link */
-    margin-right: 97.5px;
-    align-items: center; /* Center vertically within the header */
-    height: 100%; /* Take full height of parent */
+    
+    margin-right: 98px;
+    align-items: center;
+    height: 100%;
     line-height: 160%;
 }
 
@@ -45,19 +45,19 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    /* These margins are set directly on the list items for precise control */
-    height: 100%; /* Take full height of parent */
-    align-items: center; /* Center items vertically */
+
+    height: 100%;
+    align-items: center;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
 
 /* Styles for navigation list items */
 nav ul li {
-    margin-top: 0; /* Applies the specified top margin to all nav links */
+    margin-top: 40px;
     display: flex;
-    align-items: center; /* Center vertically */
-    height: 100%; /* Take full height of parent */
+    align-items: center; 
+    height: 100%;
 }
 
 /* Styles for all navigation links */
@@ -65,8 +65,8 @@ nav ul li {
     text-decoration: none;
     color: #1B0A42;
     display: flex;
-    align-items: center; /* Center vertically */
-    height: 100%; /* Take full height of parent */
+    align-items: center; 
+    height: 100%; 
 }
 
 
@@ -92,6 +92,7 @@ nav ul li {
 .header-right {
     display: flex;
     align-items: center;
+    margin-top: 40px;
 }
 
 /* Styles for the Sign In link */
@@ -101,8 +102,8 @@ nav ul li {
     font-weight: normal;
     font-size: 16px;
     display: flex;
-    align-items: center; /* Center vertically */
-    height: 100%; /* Take full height of parent */
+    align-items: center;
+    height: 100%; 
 }
 
 /* Styling for the Sign Up button */
@@ -120,14 +121,14 @@ nav ul li {
     margin-left: 40px;
     margin-right: 68px;
     display: flex;
-    align-items: center; /* Center vertically */
+    align-items: center;
     height: 44px; /* Set a fixed height for the button */
 }
 
 
 main {
     display: flex; /* This makes the content and image sit side by side */
-    align-items: center; /* Vertically centers the content */
+    align-items: center; 
 }
 
 .content-section {
